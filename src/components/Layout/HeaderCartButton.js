@@ -19,7 +19,7 @@ const {items}= cartCtx;
 const btnClasses= `${classes.button} ${btnIsHighlighted? classes.bump: ""}`;
 
 useEffect (() => {
-     if (cartCtx.items.lenght === 0){
+     if (items.lenght === 0){
     return;
   }
   
